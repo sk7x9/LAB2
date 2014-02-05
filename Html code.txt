@@ -1,0 +1,12 @@
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+<div id="map"></div>
+<p><h1>Show the directions between two places</h1></p>
+<table>
+    <tr><td>Place A:</td> 
+    <td><input type ="text" id="A" name="Place A"></td></tr>
+    <tr><td>Place B:</td>
+     <td><input type="text" id="B" name="Place B"></td></tr>
+  </table>
+<button id="button">Show</button>
+        <button id="clbutton">Back</button>
+<div id="map_view" style="height: 600px; width: 600px"></div>
